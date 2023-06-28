@@ -5,17 +5,17 @@
     tools:context=".MainActivity"
     style="@style/styleLayaut">
 
+
     <TextClock
         android:id="@+id/textClock2"
-        style="@style/relojStyle"
+        style="@style/relojStyle2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="00:00"
         app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/guideline4" />
-
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -42,16 +42,14 @@
         android:id="@+id/textView"
         style="@style/styleText"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -61,7 +59,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/baseline_stars_24" />
 
     <CalendarView
@@ -70,20 +68,19 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:fadeScrollbars="false"
-        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintBottom_toTopOf="@+id/textClock2"
         app:layout_constraintEnd_toEndOf="@+id/textClock2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textClock2"
-        app:layout_constraintTop_toBottomOf="@+id/textClock2" />
+        app:layout_constraintTop_toBottomOf="@+id/textClock2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Switch
         android:id="@+id/switchTheme"
+        style="@style/styleSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:drawable/progress_horizontal"
-        android:backgroundTint="#B407736A"
         android:text="THEME"
-        android:textColor="@color/gold"
-        android:trackTint="@color/gold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/calendarView"
         app:layout_constraintTop_toTopOf="@+id/guideline3" />

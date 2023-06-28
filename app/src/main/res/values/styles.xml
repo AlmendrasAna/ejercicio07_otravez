@@ -14,6 +14,7 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/gold</item>
         <item name="android:text">"Calendario AquaMarine"</item>
+        <item name="android:background">#3BFFFFFF</item>
     </style>
 
     <style name="styleCal">
@@ -22,7 +23,7 @@
 
     <style name="relojStyle">
         <item name="android:background">@color/gold</item>
-        <item name="android:textSize">50sp</item>
+
     </style>
 
     <style name="styleLayaut">
@@ -30,4 +31,22 @@
         <item name="android:layout_height">match_parent</item>
         <item name="android:background">@color/aquaMarine</item>
     </style>
+
+    <style name="relojStyle2">
+        <item name="android:textSize">50sp</item>
+        <item name="android:background">@drawable/gradiet_ruby_pink</item>
+        <item name="android:backgroundTint">@color/gold</item>
+        <item name="android:backgroundTintMode">multiply</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="styleSwitch">
+        <item name="android:background">@color/pink</item>
+        <item name="android:backgroundTint">@color/aquaMarine</item>
+        <item name="android:backgroundTintMode">multiply</item>
+        <item name="android:textColor">@color/aquaMarine</item>
+        <item name="android:trackTint">@color/gold</item>
+        <item name="android:textStyle">bold</item>
+        </style>
+
 </resources>

@@ -26,10 +26,12 @@ public class MainActivity extends AppCompatActivity {
                 if (switchNight.isChecked()) {
                     getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
+
                 } else {
                     getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);
 
                 }
+                getDelegate().getLocalNightMode();
             }
         });
     }
