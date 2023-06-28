@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="styleimage">
+
+        <item name="android:tint">@color/black</item>
+        <item name="android:background">@drawable/gradiet_ruby_pink</item>
+    </style>
+
+    <style name="styleText">
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/pink</item>
+        <item name="android:text">"Calendario Ruby"</item>
+
+
+    </style>
+
+    <style name="styleCal">
+        <item name="android:background">@color/ruby</item>
+    </style>
+    <style name="relojStyle">
+        <item name="android:background">@color/pink</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+</resources>

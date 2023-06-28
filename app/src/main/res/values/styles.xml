@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="styleimage">
+        <item name="android:background">@drawable/gradient_aquamarine_gold</item>
+        <item name="android:tint">@color/white</item>
+
+    </style>
+
+    <style name="styleText">
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">"Calendario AquaMarine"</item>
+    </style>
+
+    <style name="styleCal">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="relojStyle">
+        <item name="android:background">@color/gold</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+</resources>
