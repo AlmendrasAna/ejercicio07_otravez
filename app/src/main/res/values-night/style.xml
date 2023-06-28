@@ -18,10 +18,16 @@
     </style>
 
     <style name="styleCal">
-        <item name="android:background">@color/ruby</item>
+        <item name="android:background">@color/pink</item>
     </style>
     <style name="relojStyle">
         <item name="android:background">@color/pink</item>
         <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="styleLayaut">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/black</item>
     </style>
 </resources>
